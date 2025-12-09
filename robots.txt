@@ -1,0 +1,28 @@
+# robots.txt for Local Diaries Photography Portfolio
+# https://jitendra-choudhary.github.io/local-diaries/
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of specific directories (if any)
+# Disallow: /private/
+
+# Sitemap location (create this file later for better SEO)
+Sitemap: https://jitendra-choudhary.github.io/local-diaries/sitemap.xml
+
+# Crawl-delay (optional, in seconds)
+# Crawl-delay: 10
+
+# Specific rules for common bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
