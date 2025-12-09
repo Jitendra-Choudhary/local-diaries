@@ -406,8 +406,92 @@ header li a:hover {
    MOBILE RESPONSIVE MEDIA QUERIES
    ======================================== */
 
-/* Tablet View (1024px and below) */
+/* iPad Pro 12.9" Landscape (1366px and below) */
+@media (max-width: 1366px) {
+    .hero-images {
+        padding: 4rem 2rem;
+    }
+    
+    .hero-images img {
+        height: 600px;
+        width: 320px;
+    }
+    
+    .heroSection h1 {
+        font-size: 5.5rem;
+        left: 36%;
+    }
+    
+    .gallery {
+        padding-left: 2rem;
+    }
+    
+    .photo-grid {
+        column-count: 3;
+        padding: 2.5rem 2rem 2.5rem 0;
+    }
+    
+    .quote {
+        font-size: 5rem !important;
+        line-height: 5.5rem !important;
+        bottom: 16rem;
+        left: 12rem;
+    }
+}
+
+/* iPad Pro 11" & iPad Air Landscape (1194px and below) */
+@media (max-width: 1194px) {
+    .hero-images img {
+        height: 550px;
+        width: 300px;
+    }
+    
+    .heroSection h1 {
+        font-size: 5rem;
+        left: 35%;
+    }
+    
+    .photo-grid {
+        column-count: 3;
+    }
+    
+    .quote {
+        font-size: 4.5rem !important;
+        line-height: 5rem !important;
+        bottom: 14rem;
+        left: 10rem;
+    }
+    
+    .me, .camBuddy {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+    
+    .me img {
+        margin-right: 5rem;
+    }
+    
+    .footerInformation {
+        font-size: 6.5rem;
+    }
+}
+
+/* Standard Tablet & iPad Portrait (1024px and below) */
 @media (max-width: 1024px) {
+    .hero-images {
+        padding: 3rem 1.5rem;
+    }
+    
+    .hero-images img {
+        height: 500px;
+        width: 280px;
+    }
+    
+    .heroSection h1 {
+        font-size: 4.5rem;
+        left: 32%;
+    }
+    
     .photo-grid {
         column-count: 2;
         padding: 2rem 1.5rem 2rem 0;
@@ -437,6 +521,64 @@ header li a:hover {
     
     .footerInformation img {
         height: 7rem;
+    }
+}
+
+/* iPad Air & iPad 10.2" Portrait (820px - 834px) */
+@media (max-width: 834px) and (min-width: 820px) {
+    .hero-images {
+        padding: 2.5rem 1.5rem;
+    }
+    
+    .hero-images img {
+        height: 450px;
+        width: 250px;
+    }
+    
+    .heroSection h1 {
+        font-size: 4rem;
+        left: 28%;
+    }
+    
+    .gallery p {
+        font-size: 1.8rem;
+    }
+    
+    .highlight1, .highlight2, .highlight3 {
+        font-size: 2.2rem;
+    }
+    
+    .photo-grid {
+        column-count: 2;
+    }
+    
+    .quote {
+        font-size: 3.5rem !important;
+        line-height: 4rem !important;
+        bottom: 10rem;
+        left: 6rem;
+    }
+    
+    .me, .camBuddy {
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+    }
+    
+    .me img {
+        margin-right: 3rem;
+        max-width: 350px;
+    }
+    
+    .camBuddy img {
+        max-width: 350px;
+    }
+    
+    .footerInformation {
+        font-size: 5rem;
+    }
+    
+    .footerInformation img {
+        height: 6rem;
     }
 }
 
